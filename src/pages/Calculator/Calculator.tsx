@@ -12,6 +12,7 @@ import kanjiLeft from "../../assets/kanji/Kanji-left.svg";
 
 import { FOOD_ITEMS, FoodItem } from "../../data/food";
 import { FoodTile } from "../../components";
+import sendData from '../../../functions/send-data.ts';
 
 type ClassNames =
   | "container"
