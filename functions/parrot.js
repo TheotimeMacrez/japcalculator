@@ -1,6 +1,6 @@
 exports.handler = async function(event, context) {
   
-  const requestBody = event.body;
+  const requestBody = JSON.parse(event.body);
   const message = requestBody.message;
   
   if (message) {
