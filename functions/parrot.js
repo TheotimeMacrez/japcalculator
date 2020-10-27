@@ -6,14 +6,14 @@ exports.handler = async function(event, context) {
   if (message == null) {
     return {
       statusCode: 200,
-      body: JSON.stringify({message: message})
+      body: JSON.stringify({message: 'Pas de message'})
     }
   }
   
   else {
     return {
       statusCode: 400,
-      body: JSON.stringify({message: "Pas de message"})
+      body: JSON.stringify({message: message})
     }
   }
   
